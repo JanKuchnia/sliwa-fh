@@ -12,6 +12,7 @@ export default defineConfig({
   // (username.github.io/repo-name, not a custom domain or user/org root page),
   // also set base: '/repo-name'.
   site: 'https://jankuchnia.github.io/sliwa-fh',
+  base: '/sliwa-fh',
 
   server: { port: 5173, open: true },
 

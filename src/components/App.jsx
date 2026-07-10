@@ -740,8 +740,8 @@ function Footer() {
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/40">© {new Date().getFullYear()} Śliwa FH. Wszelkie prawa zastrzeżone.</p>
           <div className="flex items-center gap-6">
-            <a href="/polityka-prywatnosci" className="text-xs text-white/40 lift-on-hover inline-block">Polityka prywatności</a>
-            <a href="/regulamin" className="text-xs text-white/40 lift-on-hover inline-block">Regulamin</a>
+            <a href={`${import.meta.env.BASE_URL}/polityka-prywatnosci`.replace(/\/+/g, '/')} className="text-xs text-white/40 lift-on-hover inline-block">Polityka prywatności</a>
+            <a href={`${import.meta.env.BASE_URL}/regulamin`.replace(/\/+/g, '/')} className="text-xs text-white/40 lift-on-hover inline-block">Regulamin</a>
           </div>
         </div>
       </div>
